@@ -1,0 +1,94 @@
+
+/* Slideshow is contained within this element. Do not define a width or height, this is determined automatically. */
+#ps_container {
+	padding: 10px;
+	background: #000;
+}
+
+/* This is the loading screen element.  Do not define a width or height, this is determined automatically. */
+#ps_loading {
+	background: #000;	
+}
+
+/* This is the loading screen image */
+#ps_loading .load_image {
+	width: 48px;
+	height: 48px;
+	background: url(../images/spinner.gif);
+	margin: 0 auto;
+}
+
+/* This is the loading screen text */
+#ps_loading .load_text {
+	color: #ccc;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	font-family: Arial;
+}
+
+/* This is the close button for the navigation controls */
+#ps_close {
+	width: 25px;
+	height: 25px;
+	background: url(../images/ps_buttons.png);
+	cursor: pointer;
+}
+
+/* This is the hover state for the close button */
+#ps_close.hover {
+	background-position: -25px 0;
+}
+
+/* This is the left and right buttons for the navigation controls  */
+#ps_nav_left, #ps_nav_right {
+	width: 25px;
+	height: 35px;
+	cursor: pointer;
+	background: url(../images/ps_buttons.png);
+}
+
+/* This is the left button for the navigation controls  */
+#ps_nav_left {
+	background-position: 0 -25px;
+}
+
+/* This is the hover state for the left button  */
+#ps_nav_left.hover {
+	background-position: -25px -25px;
+}
+
+/* This is the right button for the navigation controls  */
+#ps_nav_right {
+	background-position: 0 -60px;
+}
+
+/* This is the hover state for the right button  */
+#ps_nav_right.hover {
+	background-position: -25px -60px;
+}
+
+/* This is the popup overlay.  Do not define a width or height, this is determined automatically. Do not set an opacity value, as this is defined in the options */
+#ps_overlay {
+	background: #000;
+}
+
+/* This is the image caption banner. Do not define a width, as this is determined automatically (100%)  */
+#ps_caption {
+	background: #000;
+	height: 40px;
+	overflow: hidden;
+}
+
+/* This is the image caption banner text. Use padding to define the distance from the edges. */
+#ps_caption .text {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+/* This is the class applied to each image within the slideshow */
+.ps_image {
+	border: none;
+}
